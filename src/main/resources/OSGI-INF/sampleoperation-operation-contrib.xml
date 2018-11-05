@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.sample.operation.sampleoperation" version="1.0">
+
+  <extension point="operations" target="org.nuxeo.ecm.core.operation.OperationServiceComponent">
+    <operation class="org.nuxeo.sample.SampleOperation"/>
+    <operation class="org.nuxeo.sample.SampleOperationFixed"/>
+  </extension>
+
+</component>
